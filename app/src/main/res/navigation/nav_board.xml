@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_board"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="eu.hanna.shop.OrdersFragment"
+        android:label="fragment_orders"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="eu.hanna.shop.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/notiFragment"
+        android:name="eu.hanna.shop.NotiFragment"
+        android:label="fragment_noti"
+        tools:layout="@layout/fragment_noti" />
+    <fragment
+        android:id="@+id/otherFragment"
+        android:name="eu.hanna.shop.OtherFragment"
+        android:label="fragment_other"
+        tools:layout="@layout/fragment_other" />
+</navigation>
